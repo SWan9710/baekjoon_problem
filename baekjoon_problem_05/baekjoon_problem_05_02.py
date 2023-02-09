@@ -6,8 +6,8 @@ def selfnumber(n):
     return result 
 
 arr =[]
-for i in range(1,10000):
+for i in range(1,10001):
     num = selfnumber(i)
     arr.append(num)
-    if not i in arr:
+    if i not in arr:
         print(i)
